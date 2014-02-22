@@ -1,0 +1,14 @@
+<div class = "smurfy span6 offset4 text-center">
+
+<h1 class= "custom-h1"> Your favorite places to visit </h1>
+
+<%=simple_form_for @pic do |f| %>
+<%=f.input :title, label: 'City' , placeholder: 'Buenos Aires'%>
+<%=f.input :subtitle, label: 'Country', placeholder: 'Argentina' %>
+<%=f.input :message, label: 'Description', placeholder: 'Tango and steak' %>
+
+<%=f.submit "Add My Pick", :class => 'btn btn-warning btn-large'%>
+
+<% end %> 
+
+</div>
