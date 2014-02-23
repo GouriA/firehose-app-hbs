@@ -22,7 +22,7 @@ end
 private 
 
 def pic_pararms
-	params.require(:pic).permit(:title, :subtitle, :message)
+	params.require(:pic).permit(:title, :subtitle, :message, :image)
 
 end
 
